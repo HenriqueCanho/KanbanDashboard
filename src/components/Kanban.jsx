@@ -55,6 +55,19 @@ const Nav = styled.nav`
             background-color: ${theme.getColor('olive', 0.85)};
         }
     }   
+    
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        min-width: 100%;
+        h1 {
+            font-size: 1.5rem;
+        }
+        img {
+            height: 2rem;
+        }
+    }
 `;
 
 const Container = styled.div`
@@ -69,6 +82,13 @@ const Container = styled.div`
     padding: 2rem;
     gap: 1.5rem;
     overflow-y: auto;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+        min-width: 100%;
+    }
 `;
 
 const ColumnsContainer = styled.div`
@@ -79,6 +99,12 @@ const ColumnsContainer = styled.div`
     gap: 1.5rem;
     flex: 1;
     min-width: 52rem;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 1rem;
+        min-width: 100%;
+    }
 `;
 
 const ChartContainer = styled.div`
@@ -86,6 +112,11 @@ const ChartContainer = styled.div`
     min-width: 300px;
     max-width: 500px;
     color: ${theme.getColor('black', 0.6)};
+
+    @media (max-width: 768px) {
+        min-width: 100%;
+        max-width: 100%;
+    }
 `;
 
 const Kanban = () => {
