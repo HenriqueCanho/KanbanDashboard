@@ -1,0 +1,20 @@
+[
+    {
+        "id": "89e775e2-bddb-4110-bd97-34cc8d9bdf13",
+        "title": "Fazer mercado",
+        "description": "Ir ao supermercado para comprar frutas e legumes",
+        "status": "pending"
+    },
+    {
+        "id": "ed573d57-7b08-444d-9d92-10f810193f13",
+        "title": "Estudar programação",
+        "description": "Completar o curso de Java",
+        "status": "in_progress"
+    },
+    {
+        "id": "9793972c-a887-40ed-bdf7-9c8941d934c8",
+        "title": "Crossfit",
+        "description": "Ir ao crossfit hoje às 14:30",
+        "status": "completed"
+    }
+]
