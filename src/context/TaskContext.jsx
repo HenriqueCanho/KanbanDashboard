@@ -1,6 +1,5 @@
 import { createContext, useState } from 'react';
 import tasksMocked from '../data/database.json';
-import { DropResult } from 'react-beautiful-dnd';
 
 const TaskContext = createContext({});
 
