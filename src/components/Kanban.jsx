@@ -165,7 +165,6 @@ const Kanban = () => {
     return (
         <KanbanContainer>
             <Nav>
-                <img src="cotefacil.png" alt="Cotefacil logo" /> {/* Logo */}
                 <h1>Dashboard de Tarefas</h1> {/* Título */}
                 <button onClick={handleAddTask}>Adicionar tarefa</button> {/* Botão para adicionar tarefa */}
             </Nav>
