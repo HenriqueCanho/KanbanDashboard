@@ -14,7 +14,4 @@ Projeto que implementa o frontend de um Kanban de tarefas.
 
 **Front-end:** React, Vite, Context API, React Beautiful DND
 
-## Screenshots
-
-![App Screenshot](/public/kanban.png)
 
